@@ -24,7 +24,7 @@ def sos(string):
     chaine = ""
     for i in range(len(string)):
         key = string[i].upper()
-        chaine += MORSE_CODE_DICT[key]
+        chaine += MORSE_CODE_DICT[key] + ' '
     print(chaine, "/")
 
 if __name__ == "__main__":
